@@ -27,6 +27,7 @@
 	}
 
 /*-------------theme light and dark mode-------------*/
+/*
 	const dayNignt = document.querySelector(".day-night");
 
 	dayNignt.addEventListener("click", ()=>{
@@ -43,3 +44,4 @@ window.addEventListener("load", ()=>{
 		dayNignt.querySelector("i").classList.add("fa-moon");
 	}
 })
+*/
