@@ -321,7 +321,7 @@ function bodyScrollingToggle(){
 })();
 
 /*------------hide all section except active---------*/
-
+/*
 (()=>{
 	const sections = document.querySelectorAll(".section");
 	sections.forEach((section)=>{
@@ -330,6 +330,7 @@ function bodyScrollingToggle(){
 		}
 	})
 })();
+*/
 
 window.addEventListener("load" ,()=>{
 	//preloader
