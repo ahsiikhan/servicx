@@ -171,23 +171,7 @@ img{
 	top: -120px;
 	animation: leftBounce 3s ease-in-out infinite;
 }
-.effect-4{
-	border-top:30px solid transparent;
-	border-left:30px solid #06d79c;
-	left:30%;
-	top:20%;
-	animation :spin 15s linear infinite;
-}
-.effect-4:before{
-	content: '';
-	border-top: 30px solid transparent;
-	border-left: 30px solid #06d79c;
-	position: absolute;
-	opacity: 0.5;
-	left:-35px;
-	top:-25px;
 
-}
 .effect-5{
 	height:50px;
 	width: 50px;
@@ -267,7 +251,6 @@ img{
 .section.hide{
 	display: none;
 }
-
 /*----------Preloader Start--------------*/
 .preloader{
 	position: fixed;
@@ -333,10 +316,7 @@ img{
 	line-height: 36px;
 	font-size:24px;
 	height: 40px;
-	width: 40px;
-	border:2px solid var(--skin-color);
-	color:var(--skin-color);
-	border-radius: 50%;
+	width: 10vw;
 	font-weight: 600;
 	text-transform: uppercase;
 	/*justify-content: center;*/
@@ -913,10 +893,8 @@ margin-bottom: 0;
 	padding: 15px;
 	display: flex;
 	flex-wrap: wrap;
-
-
-
 }
+
 .portfolio-section .portfolio-item.hide{
 	display: none;
 }
@@ -1387,6 +1365,26 @@ section----
 
 }
 
+/*whatsapp*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 
 
